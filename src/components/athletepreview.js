@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 
 export default class AthletePreview extends React.Component {
   render() {
+    debugger;
     return (
       <Link to={`/athlete/${this.props.id}`}>
         <div className="athlete-preview">
